@@ -1,0 +1,52 @@
+body {
+	background-color: #19315F;
+	color:  #ffffff;
+	text-align: center;
+}
+header{
+	/*border: 1px solid greenyellow;*/
+	margin-bottom: 2em;
+}
+.caja{
+	/*border: 1px solid #FDF9F9;*/
+	width: 50em;
+	height: 5em;
+	box-shadow: 5px 5px 10px 1px #FDF9F9;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+}
+.caja h1{
+	font-size: 3em;
+}
+/*section{
+	border: 1px solid pink;
+}*/
+.formulario{
+	/*border: 1px solid green;*/
+	margin: 2em 0;
+}
+.pedir, .cajita{
+	font-size: 1.5em;
+}
+.cajita{
+	text-align: center;
+	width: 6em;
+}
+.botoncito{
+	margin: 2em 0;
+	font-size: 1.5em;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

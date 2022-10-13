@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calcular % - simple</title>
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header><div class="caja"><h1>Calcular Porcentaje - Simple</h1></div></header>
+	<section>
+		<form class="formulario" name="porcentaje">
+			<label class="pedir">Introduce valor para saber porcentaje:</label>
+			<br/>
+			<input class="cajita" type="number" name="valor1" value=""/>
+			<br/>
+			<br/>
+			<label class="pedir">Introduce el porcentaje :</label>
+			<br/>
+			<input class="cajita" type="number" name="valor2" value=""/>
+			<br/>
+			<input class="botoncito" type="button" value="Calcular" onclick="calcular()">
+		</form>
+		<div name="resultados">
+			<h3 id="r1"></h3>
+			<h3 id="r2"></h3>
+			<h3 id="r3"></h3>
+			<br/>
+			<br/>
+			<h3 id="r4"></h3>
+		</div>
+	</section>
+	<footer></footer>
+</body>
+</html>

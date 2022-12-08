@@ -7,9 +7,18 @@ function calcular(){
 	
 	r1 += resultado;
 	r2 -= resultado;
-	document.getElementById("r1").innerHTML = "<h3><strong>"+"el "+valor2+"% de "+valor1+" es: "+resultado+"</strong></h3>";
-	document.getElementById("r2").innerHTML = "<h3><strong>"+"el "+valor2+"% mas de "+valor1+" es: "+r1+"</strong></h3>";
-	document.getElementById("r3").innerHTML = "<h3><strong>"+"el "+valor2+"% menos de "+valor1+" es: "+r2+"</strong></h3>";
+	document.getElementById("r1").innerHTML = "<strong>"+"el "+valor2+"% de "+valor1+" es: "+resultado+"</strong>";
+	document.getElementById("r2").innerHTML = "<strong>"+"el "+valor2+"% mas de "+valor1+" es: "+r1+"</strong>";
+	document.getElementById("r3").innerHTML = "<strong>"+"el "+valor2+"% menos de "+valor1+" es: "+r2+"</strong>";
 
-	document.getElementById("r4").innerHTML = "<h3><strong>"+"Gracias por usar este mini calculador de porcentaje"+"</strong></h3>";
+	document.getElementById("r4").innerHTML = "<strong>"+"Gracias por usar este mini calculador de porcentaje"+"</strong>";
+}
+
+function limpiar(){
+  document.porcentaje.valor1.value = "";
+  document.porcentaje.valor2.value = "";
+  document.getElementById("r1").innerHTML = "";
+	document.getElementById("r2").innerHTML = "";
+	document.getElementById("r3").innerHTML = "";
+	document.getElementById("r4").innerHTML = "";
 }
